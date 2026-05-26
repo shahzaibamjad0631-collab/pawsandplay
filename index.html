@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ══════════════════════════════════════
+       SEO META TAGS — PRO LEVEL
+  ══════════════════════════════════════ -->
+  <title>Paws & Play Dubai — Premium Dog Grooming, Boarding & Daycare</title>
+  <meta name="description" content="Dubai's #1 premium dog care center. Professional grooming, luxury boarding, daycare & training for all breeds. Book now — we respond in 1 hour!" />
+  <meta name="keywords" content="dog grooming Dubai, pet boarding Dubai, dog daycare Dubai, dog training Dubai, dog spa Dubai, pet care Dubai, paws and play Dubai, dog hotel Dubai, puppy grooming Dubai" />
+  <meta name="author" content="Paws and Play Dubai" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#E8197D" />
+  <link rel="canonical" href="https://www.pawsandplay.ae/" />
+
+  <!-- ══ ADDITIONAL SEO & PERFORMANCE ══ -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+
+  <!-- Mobile optimization -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Paws & Play Dubai" />
+  <meta name="format-detection" content="telephone=yes" />
+
+  <!-- Geo tags for Dubai local SEO -->
+  <meta name="geo.region" content="AE-DU" />
+  <meta name="geo.placename" content="Dubai" />
+  <meta name="geo.position" content="25.2048;55.2708" />
+  <meta name="ICBM" content="25.2048, 55.2708" />
+
+  <!-- Language -->
+  <meta http-equiv="content-language" content="en-ae" />
+
+  <!-- ══════════════════════════════════════
+       OPEN GRAPH (Facebook / WhatsApp Share)
+  ══════════════════════════════════════ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.pawsandplay.ae/" />
+  <meta property="og:title" content="Paws & Play Dubai — Premium Dog Care" />
+  <meta property="og:description" content="Professional grooming, luxury boarding & daycare for your beloved dog in Dubai. Book now!" />
+  <meta property="og:image" content="https://www.pawsandplay.ae/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_AE" />
+  <meta property="og:site_name" content="Paws & Play Dubai" />
+
+  <!-- ══════════════════════════════════════
+       TWITTER CARD
+  ══════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Paws & Play Dubai — Premium Dog Care" />
+  <meta name="twitter:description" content="Professional grooming, luxury boarding & daycare for your beloved dog in Dubai." />
+  <meta name="twitter:image" content="https://www.pawsandplay.ae/images/og-image.jpg" />
+
+  <!-- ══════════════════════════════════════
+       LOCAL BUSINESS SCHEMA (Google Rich Results)
+  ══════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Paws and Play Dubai",
+    "description": "Premium dog grooming, boarding, daycare and training in Dubai.",
+    "url": "https://www.pawsandplay.ae",
+    "telephone": "+971544600909",
+    "email": "Pawsandplaydxb@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "25.2048",
+      "longitude": "55.2708"
+    },
+    "openingHours": "Mo-Su 08:00-20:00",
+    "priceRange": "AED 60 - AED 200",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "312"
+    },
+    "image": "https://www.pawsandplay.ae/images/logo.png",
+    "sameAs": [
+      "https://www.instagram.com/pawsandplaydubai",
+      "https://www.facebook.com/pawsandplaydubai",
+      "https://www.tiktok.com/@pawsandplaydubai"
+    ]
+  }
+  </script>
+
+  <!-- ══════════════════════════════════════
+       FONTS — Optimized loading
+  ══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Jost:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" id="cursorFollower" aria-hidden="true"></div>
+
+  <!-- TOUCH CURSOR — Mobile circle effect -->
+  <div class="touch-cursor" id="touchCursor" aria-hidden="true"></div>
+
+  <!-- PAGE LOADER -->
+  <div class="loader" id="loader" role="status" aria-label="Loading">
+    <div class="loader-paw">🐾</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+    <p class="loader-text">Where Pets Come to Play and Stay</p>
+  </div>
+
+  <!-- FLOATING PAWS BG -->
+  <div class="paw-bg" aria-hidden="true">
+    <span class="paw p1">🐾</span><span class="paw p2">🐾</span>
+    <span class="paw p3">🐾</span><span class="paw p4">🐾</span>
+    <span class="paw p5">🐾</span><span class="paw p6">🐾</span>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="logo" aria-label="Paws and Play Home">
+        <img src="images/logo.png" alt="Paws and Play Dubai Logo" class="logo-img"
+          width="180" height="52"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <span class="logo-fallback" aria-hidden="true">🐾 Paws<em>AndPlay</em></span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+
+      <div class="nav-socials" aria-label="Social media">
+        <a href="https://www.instagram.com/pawsandplaydubai" target="_blank" rel="noopener" class="nav-soc" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.tiktok.com/@pawsandplaydubai" target="_blank" rel="noopener" class="nav-soc" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/pawsandplaydubai" target="_blank" rel="noopener" class="nav-soc" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation" aria-hidden="true">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#contact" class="mobile-cta">Book Now 🐾</a>
+    <div class="mobile-socials" aria-label="Social media">
+      <a href="https://www.instagram.com/pawsandplaydubai" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.tiktok.com/@pawsandplaydubai" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/pawsandplaydubai" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+      <a href="https://wa.me/971544600909" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1400&q=85')" role="img" aria-label="Happy dog"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow animate-up" style="--d:0.1s" aria-label="Dubai's Premium Dog Care">
+        <span class="dot" aria-hidden="true"></span> Dubai's Premium Dog Care
+      </div>
+      <h1 class="hero-title animate-up" style="--d:0.2s">
+        <span class="hero-brand-name">Paws <em>and</em> <span class="play-word">Play</span></span>
+      </h1>
+      <div class="hero-tagline animate-up" style="--d:0.35s">
+        <span class="tagline-icon">🐾</span>
+        <span>Where Pets Come to Play and Stay</span>
+        <span class="tagline-icon">🐾</span>
+      </div>
+      <p class="hero-sub animate-up" style="--d:0.45s">
+        Professional grooming, boarding &amp; daycare for your beloved dog —
+        because they deserve nothing but the finest.
+      </p>
+      <div class="hero-actions animate-up" style="--d:0.6s">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-calendar-check" aria-hidden="true"></i> Book a Session
+        </a>
+        <a href="#services" class="btn btn-outline">
+          View Services <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="hero-stats" role="list" aria-label="Business statistics">
+      <div class="hstat" role="listitem">
+        <div class="hstat-num">
+          <strong class="count" data-target="2500" aria-label="2500 plus happy dogs">0</strong><sup aria-hidden="true">+</sup>
+        </div>
+        <span>Happy Dogs</span>
+      </div>
+      <div class="hstat" role="listitem">
+        <div class="hstat-num">
+          <strong class="count" data-target="8" aria-label="8 years in Dubai">0</strong>
+        </div>
+        <span>Years in Dubai</span>
+      </div>
+      <div class="hstat" role="listitem">
+        <div class="hstat-num">
+          <strong class="count" data-target="49" data-decimal="true" aria-label="4.9 Google rating">0</strong>
+          <i class="fas fa-star" aria-hidden="true" style="color:var(--pink);font-size:16px;margin-left:4px;vertical-align:middle"></i>
+        </div>
+        <span>Google Rating</span>
+      </div>
+      <div class="hstat" role="listitem">
+        <div class="hstat-num">
+          <strong class="count" data-target="15" aria-label="15 plus dog breeds served">0</strong><sup aria-hidden="true">+</sup>
+        </div>
+        <span>Breeds Served</span>
+      </div>
+    </div>
+
+    <a href="#services" class="hero-scroll" aria-label="Scroll to services">
+      <span>Scroll</span>
+      <div class="scroll-wheel" aria-hidden="true"></div>
+    </a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span><i class="fas fa-paw"></i> Premium Grooming</span>
+      <span><i class="fas fa-house-chimney"></i> Dog Boarding</span>
+      <span><i class="fas fa-sun"></i> Daycare</span>
+      <span><i class="fas fa-spa"></i> Spa &amp; Wellness</span>
+      <span><i class="fas fa-graduation-cap"></i> Obedience Training</span>
+      <span><i class="fas fa-van-shuttle"></i> Pet Taxi</span>
+      <span><i class="fas fa-paw"></i> Premium Grooming</span>
+      <span><i class="fas fa-house-chimney"></i> Dog Boarding</span>
+      <span><i class="fas fa-sun"></i> Daycare</span>
+      <span><i class="fas fa-spa"></i> Spa &amp; Wellness</span>
+      <span><i class="fas fa-graduation-cap"></i> Obedience Training</span>
+      <span><i class="fas fa-van-shuttle"></i> Pet Taxi</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════ -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="tag">What We Offer</span>
+        <h2 id="services-heading">Services Crafted<br/><em>With Love</em></h2>
+        <p>Every service designed around your dog's comfort, health and happiness.</p>
+      </div>
+      <div class="services-grid">
+
+        <article class="svc-card reveal" style="--sd:0s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&q=80')" role="img" aria-label="Dog grooming service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+            <div class="svc-tag-chip">Most Popular</div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-cut"></i></div>
+            <h3>Premium Grooming</h3>
+            <p>Bath, breed cut, nail trim, ear cleaning &amp; finishing spray. Runway-ready results every time.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 120</span>
+              <a href="#contact" class="svc-btn" aria-label="Book grooming service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="svc-card reveal" style="--sd:0.1s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80')" role="img" aria-label="Dog boarding service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-house-chimney"></i></div>
+            <h3>Luxury Boarding</h3>
+            <p>Home-like suites with cozy beds, 24/7 care, live CCTV monitoring &amp; daily photo updates.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 80/night</span>
+              <a href="#contact" class="svc-btn" aria-label="Book boarding service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="svc-card reveal" style="--sd:0.2s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1558788353-f76d92427f16?w=600&q=80')" role="img" aria-label="Dog daycare service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-sun"></i></div>
+            <h3>Dog Daycare</h3>
+            <p>Supervised play, socialization &amp; structured activities. Drop off happy, pick up happier.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 60/day</span>
+              <a href="#contact" class="svc-btn" aria-label="Book daycare service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="svc-card reveal" style="--sd:0.3s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80')" role="img" aria-label="Dog training service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Training Classes</h3>
+            <p>Basic to advanced obedience by certified trainers. Every breed, every age, every personality.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 200/month</span>
+              <a href="#contact" class="svc-btn" aria-label="Book training service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="svc-card reveal" style="--sd:0.4s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1594149929911-78975a43d4f5?w=600&q=80')" role="img" aria-label="Dog spa service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-spa"></i></div>
+            <h3>Spa &amp; Wellness</h3>
+            <p>Aromatherapy bath, deep conditioning, paw massage &amp; de-shedding. Pure pampering.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 150</span>
+              <a href="#contact" class="svc-btn" aria-label="Book spa service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="svc-card reveal" style="--sd:0.5s">
+          <div class="svc-img" style="background-image:url('https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=600&q=80')" role="img" aria-label="Pet taxi service">
+            <div class="svc-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="svc-body">
+            <div class="svc-icon-wrap" aria-hidden="true"><i class="fas fa-van-shuttle"></i></div>
+            <h3>Pet Taxi Dubai</h3>
+            <p>AC-equipped, safe door-to-door pickup &amp; drop anywhere in Dubai. Stress-free travel.</p>
+            <div class="svc-footer">
+              <span class="svc-price">From AED 50/trip</span>
+              <a href="#contact" class="svc-btn" aria-label="Book pet taxi service">Book <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       WHY CHOOSE US STRIP
+  ══════════════════════════════════════ -->
+  <section class="trust-strip" aria-labelledby="trust-heading">
+    <div class="container">
+      <h2 id="trust-heading" class="sr-only">Why Choose Paws and Play</h2>
+      <div class="trust-grid reveal">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+          <strong>100% Safe</strong>
+          <span>Vet-approved products &amp; methods only</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-video" aria-hidden="true"></i></div>
+          <strong>Live CCTV</strong>
+          <span>Watch your dog anytime you want</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+          <strong>Daily Updates</strong>
+          <span>Photos &amp; videos sent on WhatsApp</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+          <strong>1 Hour Response</strong>
+          <span>We reply to every booking fast</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div>
+          <strong>Certified Staff</strong>
+          <span>All handlers professionally trained</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════ -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container about-wrap">
+      <div class="about-imgs reveal" aria-hidden="true">
+        <div class="ai-main" style="background-image:url('https://images.unsplash.com/photo-1552053831-71594a27632d?w=700&q=85')" role="img" aria-label="Golden Retriever being groomed"></div>
+        <div class="ai-sm ai-sm1" style="background-image:url('https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=400&q=80')"></div>
+        <div class="ai-sm ai-sm2" style="background-image:url('https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=400&q=80')"></div>
+        <div class="ai-badge">
+          <strong>98%</strong>
+          <span>Satisfied Pawrents</span>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <span class="tag">Our Story</span>
+        <h2 id="about-heading">Born From a <em>Deep Love</em> For Dogs</h2>
+        <p>Founded in Dubai by a team of certified pet care professionals, Paws &amp; Play was built on one belief — every dog deserves expert care in a warm, stress-free environment.</p>
+        <p>From our premium grooming suites to our cozy boarding rooms, every detail is designed around your dog's comfort, safety and happiness.</p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <div class="pillar-icon" aria-hidden="true"><i class="fas fa-trophy"></i></div>
+            <div><strong>Certified Handlers</strong><span>Professionally trained staff</span></div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon" aria-hidden="true"><i class="fas fa-video"></i></div>
+            <div><strong>Live CCTV</strong><span>Monitor your dog anytime</span></div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon" aria-hidden="true"><i class="fas fa-leaf"></i></div>
+            <div><strong>Vet-Approved</strong><span>Only safe, quality products</span></div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon" aria-hidden="true"><i class="fab fa-whatsapp"></i></div>
+            <div><strong>WhatsApp Updates</strong><span>Photos &amp; videos all day</span></div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-paw" aria-hidden="true"></i> Get In Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       GALLERY — Infinite Auto Scroll
+  ══════════════════════════════════════ -->
+  <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="tag">Happy Moments</span>
+        <h2 id="gallery-heading">Our Furry <em>Stars</em></h2>
+        <p>Every dog that walks through our doors leaves as family.</p>
+      </div>
+    </div>
+    <div class="gallery-infinite-wrap">
+      <div class="gallery-infinite" id="galleryInfinite">
+        <!-- Set 1 -->
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1552053831-71594a27632d?w=600&q=80')"></div><div class="gal-info"><strong>Max</strong><span>Golden Retriever</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80')"></div><div class="gal-info"><strong>Bella</strong><span>Toy Poodle</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=600&q=80')"></div><div class="gal-info"><strong>Charlie</strong><span>Beagle</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=600&q=80')"></div><div class="gal-info"><strong>Bruno</strong><span>German Shepherd</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=600&q=80')"></div><div class="gal-info"><strong>Coco</strong><span>Labrador</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80')"></div><div class="gal-info"><strong>Rocky</strong><span>Husky</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=600&q=80')"></div><div class="gal-info"><strong>Daisy</strong><span>Maltese</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=600&q=80')"></div><div class="gal-info"><strong>Duke</strong><span>Shih Tzu</span></div></div>
+        <!-- Set 2 — exact duplicate for seamless loop -->
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1552053831-71594a27632d?w=600&q=80')"></div><div class="gal-info"><strong>Max</strong><span>Golden Retriever</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80')"></div><div class="gal-info"><strong>Bella</strong><span>Toy Poodle</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=600&q=80')"></div><div class="gal-info"><strong>Charlie</strong><span>Beagle</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=600&q=80')"></div><div class="gal-info"><strong>Bruno</strong><span>German Shepherd</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=600&q=80')"></div><div class="gal-info"><strong>Coco</strong><span>Labrador</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&q=80')"></div><div class="gal-info"><strong>Rocky</strong><span>Husky</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=600&q=80')"></div><div class="gal-info"><strong>Daisy</strong><span>Maltese</span></div></div>
+        <div class="gal-item"><div class="gal-img" style="background-image:url('https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=600&q=80')"></div><div class="gal-info"><strong>Duke</strong><span>Shih Tzu</span></div></div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- ══════════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════════ -->
+  <section class="testimonials" id="testimonials" aria-labelledby="reviews-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="tag teal-tag">Pawrents Love Us</span>
+        <h2 id="reviews-heading">Real Stories,<br/><em>Real Happiness</em></h2>
+      </div>
+      <div class="testi-grid">
+        <blockquote class="testi-card reveal" style="--sd:0s">
+          <div class="testi-stars" aria-label="5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
+          <p>"Max comes back looking like a celebrity every single time. The team genuinely loves animals — you feel it the moment you walk in."</p>
+          <footer class="testi-bottom">
+            <div class="testi-av" style="background:linear-gradient(135deg,#E8197D,#ff6eb4)" aria-hidden="true">SA</div>
+            <div><strong>Sarah Al-Amiri</strong><span>Dubai Marina · Golden Retriever Mom</span></div>
+          </footer>
+        </blockquote>
+        <blockquote class="testi-card tc-pink reveal" style="--sd:0.15s">
+          <div class="testi-stars" aria-label="5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
+          <p>"Bella was always anxious at other groomers. Here she runs in excited! The staff is incredibly patient and results are always perfect."</p>
+          <footer class="testi-bottom">
+            <div class="testi-av" style="background:linear-gradient(135deg,#2AADA8,#7ECFC9)" aria-hidden="true">KM</div>
+            <div><strong>Khalid Mansoor</strong><span>JBR, Dubai · Poodle Dad</span></div>
+          </footer>
+        </blockquote>
+        <blockquote class="testi-card reveal" style="--sd:0.3s">
+          <div class="testi-stars" aria-label="5 out of 5 stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
+          <p>"WhatsApp updates all day while Bruno was boarding gave me total peace of mind. Best pet care in Dubai, hands down. 10/10."</p>
+          <footer class="testi-bottom">
+            <div class="testi-av" style="background:linear-gradient(135deg,#A0734A,#d4a574)" aria-hidden="true">PR</div>
+            <div><strong>Priya Rao</strong><span>Downtown Dubai · Shepherd Mom</span></div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       BREEDS
+  ══════════════════════════════════════ -->
+  <section class="breeds" aria-labelledby="breeds-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="tag">All Breeds Welcome</span>
+        <h2 id="breeds-heading">We Care For <em>Every Breed</em></h2>
+        <p>Big or small, fluffy or smooth — every dog gets our full love and attention.</p>
+      </div>
+      <div class="breeds-grid reveal" role="list" aria-label="Dog breeds we serve">
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Golden Retriever</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Poodle</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> German Shepherd</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Labrador</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Husky</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Shih Tzu</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Beagle</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Maltese</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Dachshund</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Rottweiler</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> French Bulldog</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Chihuahua</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Pomeranian</div>
+        <div class="breed-chip" role="listitem"><i class="fas fa-paw" aria-hidden="true"></i> Cocker Spaniel</div>
+        <div class="breed-chip" role="listitem">✦ &amp; Many More</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT / BOOKING
+  ══════════════════════════════════════ -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container contact-wrap">
+      <div class="contact-left reveal">
+        <span class="tag">Book a Session</span>
+        <h2 id="contact-heading">Let's Give Your<br/><em>Dog the Best</em></h2>
+        <p>Reach out via WhatsApp or fill the form — we respond within 1 hour guaranteed.</p>
+        <div class="contact-cards">
+          <a href="https://wa.me/971544600909" target="_blank" rel="noopener" class="contact-card cc-whatsapp">
+            <div class="cc-icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+            <div><strong>WhatsApp</strong><span>Chat with us instantly</span></div>
+            <i class="fas fa-arrow-right cc-arrow" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:Pawsandplaydxb@gmail.com" class="contact-card">
+            <div class="cc-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+            <div><strong>Email Us</strong><span>Pawsandplaydxb@gmail.com</span></div>
+            <i class="fas fa-arrow-right cc-arrow" aria-hidden="true"></i>
+          </a>
+          <a href="tel:+971544600909" class="contact-card">
+            <div class="cc-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+            <div><strong>Call Us</strong><span>+971 54 460 0909</span></div>
+            <i class="fas fa-arrow-right cc-arrow" aria-hidden="true"></i>
+          </a>
+          <div class="contact-card cc-loc">
+            <div class="cc-icon"><i class="fas fa-location-dot" aria-hidden="true"></i></div>
+            <div><strong>Location</strong><span>Dubai, UAE</span></div>
+          </div>
+        </div>
+        <div class="contact-follow">
+          <p>Follow us for daily cuteness</p>
+          <div class="follow-icons">
+            <a href="https://www.instagram.com/pawsandplaydubai" target="_blank" rel="noopener" class="follow-btn insta" aria-label="Follow on Instagram">
+              <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span>
+            </a>
+            <a href="https://www.tiktok.com/@pawsandplaydubai" target="_blank" rel="noopener" class="follow-btn tiktok" aria-label="Follow on TikTok">
+              <i class="fab fa-tiktok" aria-hidden="true"></i><span>TikTok</span>
+            </a>
+            <a href="https://www.facebook.com/pawsandplaydubai" target="_blank" rel="noopener" class="follow-btn fb" aria-label="Follow on Facebook">
+              <i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right reveal">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Booking form">
+          <h3>Book a Free Consultation</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Your Name *</label>
+              <input type="text" id="fname" name="name" placeholder="e.g. Ahmed Ali" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="fphone">WhatsApp Number *</label>
+              <input type="tel" id="fphone" name="phone" placeholder="+971 54 460 0909XXX XXXX" required autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fdog">Dog's Name &amp; Breed</label>
+            <input type="text" id="fdog" name="dog" placeholder="e.g. Max, Golden Retriever" />
+          </div>
+          <div class="form-group">
+            <label for="fservice">Select Service *</label>
+            <select id="fservice" name="service" required>
+              <option value="">Choose a service...</option>
+              <option value="grooming">Premium Grooming</option>
+              <option value="boarding">Luxury Boarding</option>
+              <option value="daycare">Dog Daycare</option>
+              <option value="training">Training Classes</option>
+              <option value="spa">Spa &amp; Wellness</option>
+              <option value="taxi">Pet Taxi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fnotes">Anything else we should know?</label>
+            <textarea id="fnotes" name="notes" placeholder="Tell us about your dog's personality, special needs..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Booking Request
+          </button>
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+            <i class="fas fa-check-circle" aria-hidden="true"></i> Thank you! We'll WhatsApp you within 1 hour.
+          </div>
+          <p class="form-note">
+            <i class="fas fa-lock" aria-hidden="true"></i> Your information is 100% private. No spam, ever.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Paws and Play Dubai" class="footer-logo-img" width="160" height="48"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+          <div class="footer-logo-text" style="display:none">🐾 Paws<em>AndPlay</em></div>
+          <p>Dubai's most loved dog care — where every tail wags with joy.</p>
+          <div class="footer-socials" aria-label="Social media links">
+            <a href="https://www.instagram.com/pawsandplaydubai" target="_blank" rel="noopener" class="fsoc fsoc-insta" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.tiktok.com/@pawsandplaydubai" target="_blank" rel="noopener" class="fsoc fsoc-tiktok" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/pawsandplaydubai" target="_blank" rel="noopener" class="fsoc fsoc-fb" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://wa.me/971544600909" target="_blank" rel="noopener" class="fsoc fsoc-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Grooming</a>
+          <a href="#services">Boarding</a>
+          <a href="#services">Daycare</a>
+          <a href="#services">Training</a>
+          <a href="#services">Spa &amp; Wellness</a>
+          <a href="#services">Pet Taxi</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#about">About Us</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <a href="https://wa.me/971544600909" target="_blank" rel="noopener"><i class="fab fa-whatsapp" aria-hidden="true" style="color:#25D366"></i> WhatsApp Us</a>
+          <a href="mailto:Pawsandplaydxb@gmail.com"><i class="fas fa-envelope" aria-hidden="true" style="color:var(--pink)"></i> Pawsandplaydxb@gmail.com</a>
+          <a href="tel:+971544600909"><i class="fas fa-phone" aria-hidden="true" style="color:var(--teal)"></i> +971 54 460 0909</a>
+          <span><i class="fas fa-location-dot" aria-hidden="true" style="color:var(--caramel)"></i> Dubai, UAE</span>
+          <span><i class="fas fa-clock" aria-hidden="true" style="color:var(--muted)"></i> Daily 8AM – 8PM</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Paws &amp; Play Dubai. All rights reserved.</p>
+        <p class="footer-tagline">Where Pets Come to Play and Stay 🐾</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/971544600909" class="wa-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="wa-ring" aria-hidden="true"></span>
+    <i class="fab fa-whatsapp wa-ico" aria-hidden="true"></i>
+    <span class="wa-label">Chat with us</span>
+  </a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
